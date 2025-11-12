@@ -10,8 +10,8 @@ Supports both **classic** and **fine-grained** Personal Access Tokens (PATs), wo
 1. **Clone this repo**
 
    ```bash
-   git clone https://github.com/<your-user>/<your-repo>.git
-   cd <your-repo>
+   git clone https://github.com/coughe/create-gh-issues
+   cd create-gh-issues
    ```
 
 2. **Copy the environment file**
