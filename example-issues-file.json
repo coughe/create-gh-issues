@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Add sample feature toggle",
+    "body": "Implement a basic feature flag system to enable or disable certain app features for testing.\n\n### Requirements\n- Add a config flag in `config/app_config.dart`.\n- Default the flag to **false**.\n- Log a message when toggled.\n\n### Acceptance Criteria\n- Developers can toggle feature flags easily in code.\n- No runtime errors when flag is off.\n- Console output confirms flag state.",
+    "labels": ["demo", "backend", "feature"]
+  },
+  {
+    "title": "Add placeholder homepage UI",
+    "body": "Design a simple placeholder homepage for UI testing.\n\n### Requirements\n- Create a basic layout with a header and footer.\n- Include a centered welcome message.\n- Use neutral colors and minimal styling.\n\n### Acceptance Criteria\n- Homepage loads without errors.\n- Header/footer visible.\n- Design ready for real content replacement.",
+    "labels": ["demo", "frontend", "ui"]
+  },
+  {
+    "title": "Setup logging utility",
+    "body": "Create a small utility class to handle console and file logging.\n\n### Requirements\n- Write logs to both console and `logs/app.log`.\n- Support levels: info, warn, error.\n- Include timestamps.\n\n### Acceptance Criteria\n- Logs are formatted consistently.\n- Errors clearly visible.\n- File output verified under `/logs` folder.",
+    "labels": ["demo", "tools", "logging"]
+  },
+  {
+    "title": "Add unit tests for math utilities",
+    "body": "Write unit tests for all functions in `lib/utils/math_utils.dart`.\n\n### Requirements\n- Test edge cases for division by zero.\n- Ensure accuracy of rounding methods.\n\n### Acceptance Criteria\n- Test coverage > 80% for math utilities.\n- All tests pass in CI.",
+    "labels": ["demo", "testing", "qa"]
+  },
+  {
+    "title": "Document setup instructions",
+    "body": "Update the README with local development setup steps.\n\n### Requirements\n- Explain environment setup.\n- Add instructions for installing dependencies.\n- Include a short troubleshooting section.\n\n### Acceptance Criteria\n- README clear and easy to follow.\n- New developers can start in <10 minutes.",
+    "labels": ["demo", "docs"]
+  }
+]
