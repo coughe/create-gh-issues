@@ -68,6 +68,19 @@ Each object must include:
 - **`body`** — issue description (optional)
 - **`labels`** — array of label names (optional)
 
+> ⚠️ **Note on labels**
+>
+> Labels specified in your JSON file (e.g. `"labels": ["demo", "backend"]`) must
+> already exist in your GitHub repository.
+> The script will not create missing labels automatically — if a label does not
+> exist, the issue will still be created but **without any labels**.
+>
+> You can pre-create labels manually in your repo using the GitHub UI, or via CLI:
+> ```bash
+> gh label create demo --color 6f42c1 --description "Demo/test issues"
+> gh label create backend --color 0366d6 --description "Backend-related work"
+> ```
+
 ---
 
 ## 🧩 Requirements
